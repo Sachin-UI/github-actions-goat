@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:18@sha256:70ae166dcb03837ebe1abbb78919a1a4bdc79cc970344d56f33b6c753f4b46cc
 
 # Create app directory
 WORKDIR /usr/src/app
